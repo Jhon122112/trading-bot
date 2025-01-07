@@ -1,0 +1,4 @@
+Flask
+MetaTrader5
+pandas
+gunicorn
