@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "trading-api.py",
+      "src": "api/trading-api.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "trading-api.py"
+      "dest": "api/trading-api.py"
     }
   ]
 }
